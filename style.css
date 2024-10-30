@@ -1,0 +1,213 @@
+body {
+    background: none repeat scroll 0 0 white;
+    font: 13px/1.22 Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+	border: 0 none;
+	outline: 0 none;
+	vertical-align: baseline;
+}
+.everyblock_widget_container {
+    overflow: hidden;
+    position: relative;
+    background: none no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.everyblock_widget_header {
+	background: none repeat scroll 0 0 #2a332e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    font-size: 100%;
+    outline: 0 none;
+    vertical-align: baseline;
+}
+.everyblock_widget_flag {
+    font-size: 12px;
+    padding: 10px 12px;
+    background: none no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    vertical-align: baseline;
+}
+
+.everyblock_widget_flag a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.everyblock_widget_flag em{
+    font-style: normal;
+    padding-left: 3px;
+    vertical-align: top;
+    background: none no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+}
+
+.everyblock_widget_flag em img{
+	margin-left: 4px;
+	background: none no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+	font-style: normal;
+	color: #fff;
+}
+
+.everyblock_widget_selection {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #ebf2ee;
+    border-image: none;
+    border-style: solid;
+    border-width: 3px 1px 1px;
+    color: #555;
+	border-color: #80b947 #aaa #aaa;
+    font-size: 13px;
+    padding: 8px 0;
+    margin: 0;
+    outline: 0 none;
+	vertical-align: baseline;
+}
+
+.everyblock_widget_selection form{
+	padding: 0 15px;
+    background: none no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    vertical-align: baseline;
+	color: #555;
+}
+
+.everyblock_widget_selection form select{
+	margin: 0 0 2px;
+    outline: medium none;
+	font-size: 100%;
+}
+
+.everyblock_widget_content {
+	overflow-y: auto;
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+	border-image: none;
+	border-style: none solid solid;
+    border-width: medium 1px 1px;
+    line-height: 1.3;
+    overflow-x: hidden;
+	background: none no-repeat scroll 0 0 transparent;
+	border-color: #aaaaaa;
+	font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.everyblock_widget_container {
+	left: 0;
+    top: 0;
+	line-height: 1.3;
+}
+
+.everyblock_widget_item:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.everyblock_widget_item {
+    background: none repeat scroll 0 0 #ffffff;
+    border-bottom: 1px solid #cccccc;
+    clear: both;
+    display: block;
+    padding: 10px 12px 8px;
+    position: relative;
+}
+
+.everyblock_widget_item_last {
+	border-bottom: medium none;
+}
+
+.everyblock_widget_item h3 {
+	font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.everyblock_widget_item h3 a{
+	color: #21558c;
+    text-decoration: none;
+}
+
+.everyblock_widget_time {
+    color: #555555;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 2px;
+    padding: 1px 0;
+}
+
+.everyblock_widget_loc {
+    color: #555555;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 2px;
+    padding: 1px 5px;
+}
+
+.everyblock_widget_teaser {
+    background: none repeat scroll 0 0 #2a332e;
+    border-top: 1px solid #000000;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 12px 15px;
+    text-decoration: none;
+	bottom: 0;
+    height: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.everyblock_widget_teaser a{
+    color: #ffffff;
+    font: 15px/1.22 Helvetica,sans-serif;
+    text-decoration: none;
+}
+.everyblock_no_data {
+    color: #555555;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 2px;
+    padding: 1px 5px;
+	padding-top: 10px;
+	text-align:center;
+}
